@@ -14,12 +14,11 @@ The model architecture follows a hybrid design, using a pre-trained DenseNet121 
 The model is trained using PyTorch, with Focal Loss to handle the class imbalance, and the AdamW optimizer with learning rate scheduling. Early stopping is implemented to prevent overfitting.
 
 ## Results
-The model achieves a ROC-AUC score of 0.92 on the validation set and 0.90 on the tes
+The model achieves a ROC-AUC score of 0.92 on the validation set and 0.90 on the test set, demonstrating strong performance in classifying skin lesions as benign or malignant.
+
 ## Future Improvements
 Potential future improvements to the project include:
 - Exploring alternative model architectures or ensemble methods to further enhance performance.
 - Incorporating additional data sources, such as clinical history or dermoscopic images, to improve the model's predictive capabilities.
 - Evaluating the model's performance on larger and more diverse datasets to ensure real-world applicability.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
